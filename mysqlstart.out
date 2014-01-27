@@ -1,0 +1,6 @@
+Rather than invoking init scripts through /etc/init.d, use the service(8)
+utility, e.g. service mysql start
+
+Since the script you are attempting to invoke has been converted to an
+Upstart job, you may also use the start(8) utility, e.g. start mysql
+mysql start/running, process 4130

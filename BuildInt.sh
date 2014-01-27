@@ -1,3 +1,12 @@
+####################### BuildInt.sh #################################################
+# Date: 		01/01/2014
+# Author:		Jonathan Harris 
+# Student Id:		x13118901
+# Description:	Deploy WebPage 
+# 			
+# Dependencies:      None	
+#			
+#######################################################################################
 #!/bin/bash
 
 # Create Sandbox
@@ -24,7 +33,7 @@ mkdir deploy
 #
 # copy webpackage from git and move webpackage
 #
-git clone https://github.com/FSlyne/NCIRL.git
+git clone https://github.com/JonnyHarris/Project.git
 #
 tar -zcvf webpackage_preBuild.tgz webpackage
 

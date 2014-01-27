@@ -1,4 +1,4 @@
-####################### SystemStatusFuncLevel_1.sh ####################################
+####################### SystemStatusFuncLevel_0.sh ####################################
 # Date: 		01/01/2014
 # Author:		Jonathan Harris 
 # Student Id:		x13118901

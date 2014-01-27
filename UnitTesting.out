@@ -1,0 +1,25 @@
+2014-01-27 14:24:12 status
+Unit Test System Status Level 0 System Status Functions
+Positive Unit Test of isRunning using apache2  paramaeters
+Positive UT Passed
+Negative Unit Test of isRunning using RUBBISH  paramaeters
+Negative UT Passed
+Positive Unit Test of isTCPlisten using 80  paramaeters
+Positive UT Passed
+Negative Unit Test of isTCPlisten using 9999  paramaeters
+Negative UT Passed
+Positive Unit Test of isUDPlisten using 68  paramaeters
+Positive UT Passed
+Negative Unit Test of isUDPlisten using 9999  paramaeters
+Negative UT Passed
+Positive Unit Test of isIPalive using 127.0.0.1  paramaeters
+Positive UT Passed
+Negative Unit Test of isIPalive using 256.0.0.9  paramaeters
+Negative UT Passed
+Positive Unit Test of myCPUusage using Apache 100 paramaeters
+Positive UT Passed
+Negative Unit Test of myCPUusage using Rubbish 999 paramaeters
+Negative UT Failed
+*********** Unit Testing failed *************
+No of Failed UT Total= 1
+Total No of UTests= 5

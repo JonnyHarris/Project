@@ -19,6 +19,8 @@
 source SystemStatusFuncLevel_0.sh		# Level 0 System Functions
 source SystemStatusFuncLevel_1.sh		# Level 1 System Functions
 
+# Report Date and Time
+echo $(date +"%F %T") status 
 
 # Functional Body of SystemMonitor script <----------------------------
 
@@ -94,6 +96,6 @@ fi
 if  [ $ERRORCOUNT -gt 0 ]
 then
         echo "There was a problem on the server email sent to System Admin"
-        perl sendmail.pl "There is a problem on the server see logmonitor.out for further info" 
+        perl sendmail.pl "There is a problem on the server see SystemMonitor.out for further info" 
 fi
 

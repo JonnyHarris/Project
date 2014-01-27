@@ -1,0 +1,6 @@
+Rather than invoking init scripts through /etc/init.d, use the service(8)
+utility, e.g. service mysql stop
+
+Since the script you are attempting to invoke has been converted to an
+Upstart job, you may also use the stop(8) utility, e.g. stop mysql
+mysql stop/waiting

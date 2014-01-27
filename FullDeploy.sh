@@ -1,3 +1,12 @@
+####################### FullDeploy.sh #################################################
+# Date: 		01/01/2014
+# Author:		Jonathan Harris 
+# Student Id:		x13118901
+# Description:	Deploy WebPage 
+# 			
+# Dependencies:      None	
+#			
+#######################################################################################
 #!/bin/bash
 
 # Create Sandbox

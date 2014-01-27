@@ -16,7 +16,6 @@ use strict;
           To      => 'jrhdeploy@gmail.com',
           Subject => 'Problems with the site',
       ],
-#	body => 'We have an issue with the site, either the server of mysql and kaput!',
 	body => $msg,
   );
 

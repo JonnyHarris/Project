@@ -1,7 +1,7 @@
 ######################### UnitTesting.sh ########################
 # Date: 		01/01/2014
-# Author:		
-# Student Id:		x9999999
+# Author:		Jonathan Harris
+# Student Id:		x13118901
 # Description:	Unit Test of Level 0 & Level 1 Functions to monitor deployment 
 # 			i.e. Apache2, MySql, Remote TCP Link
 # Dependencies:      ./scripts/SystemStatusFunc.sh
